@@ -25,10 +25,10 @@ public class DyedBackpacks extends JavaPlugin {
 			new GitHubBuildsUpdater(this, getFile(), "TheBusyBiscuit/DyedBackpacks/master").start();
 		}
 		
-		Research research = new Research(17200, "Dyed Backpacks", 24);
+		Research research = new Research(17200, "Крашеные рюкзаки", 24);
 		
 		try {
-			Category category = new Category(new CustomItem(CustomSkull.getItem(BackpackColor.RED.getTexture()), "&4Dyed Backpacks", "", "&a> Click to open"));
+			Category category = new Category(new CustomItem(CustomSkull.getItem(BackpackColor.RED.getTexture()), "&4Крашеные рюкзаки", "", "&a> Нажмите, чтобы открыть"));
 			
 			if (cfg.getBoolean("backpacks.small")) createBackpacks(category, research, (SlimefunItemStack) SlimefunItems.BACKPACK_SMALL, 9);
 			if (cfg.getBoolean("backpacks.normal")) createBackpacks(category, research, (SlimefunItemStack) SlimefunItems.BACKPACK_MEDIUM, 18);

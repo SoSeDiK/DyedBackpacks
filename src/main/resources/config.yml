@@ -1,5 +1,5 @@
 options:
-  auto-update: true
+  auto-update: false
 backpacks:
   small: true
   normal: true

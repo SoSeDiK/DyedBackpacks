@@ -1,7 +1,7 @@
 name: DyedBackpacks
 version: ${project.version}
 author: TheBusyBiscuit
-description: A Slimefun Addon that adds dyed backpacks
+description: Дополнение к Slimefun на разноцветные рюкзаки
 website: https://github.com/TheBusyBiscuit/DyedBackpacks
 
 main: io.github.thebusybiscuit.dyedbackpacks.DyedBackpacks
